@@ -1,0 +1,25 @@
+:root {
+  --end-position: 10px;
+}
+
+@keyframes drive {
+  0%    { left: 0; }
+  100%  { left: var(--end-position); }
+}
+
+.driving {
+  position: relative;
+  animation-fill-mode: forwards;
+  animation: linear drive;
+  animation-duration: 1s;
+}
+
+.stopped {
+  animation: linear drive;
+  animation-play-state: paused;
+  position: relative;
+}
+
+.pageNavigation {
+  margin-top: 5px;
+}

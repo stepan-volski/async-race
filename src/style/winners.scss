@@ -1,0 +1,34 @@
+.winnersContainer{
+  width: 50vw;
+  height: 30vh;
+  margin:-1px 0 -1px 0;
+}
+
+.winnerCarImage{
+  svg{
+    width: 40px;
+    height: 15px;
+  }
+}
+
+.tableHeader{
+  width: 50vw;
+  font-weight: bold;
+  flex: 1;
+  margin:-1px 0 0 0;
+}
+
+.winnerRow {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    flex: 1;
+    margin:-1px -1px -1px 0;
+  }
+}
